@@ -143,7 +143,7 @@ function inizializza()  {
     
 	// creo il div "istrudiv" che contiene un semplice testo: le istruzioni per giocare
    	str = "<div class='istrudiv'><h1 class='istruzioni'>Istruzioni</h1><p class='regole'>";
-    	str += "Ogni cella di questa griglia deve essere colorata o lasciata in bianco in base ai numeri a lato della griglia. Il numero indica quante celle consecutive devono essere riempite, o in riga, o in colonna. Per esempio, un indizio del tipo \"4 8 3\" significa che c'e' un insieme di quattro, otto e tre quadrati da riempire in questo ordine, con almeno quattro bianco tra gruppi successivi.</div>";
+    	str += "Ogni cella di questa griglia deve essere colorata o lasciata in bianco in base ai numeri a lato della griglia. Il numero indica quante celle consecutive devono essere riempite, o in riga, o in colonna. Per esempio, un indizio del tipo \"4 8 3\" significa che c'e' un insieme di quattro, otto e tre quadrati da riempire in questo ordine, con almeno uno spazio bianco tra gruppi successivi.</div>";
 	// inserisco il div "istrudiv" in fondo al div "container"
     	document.getElementById("container").innerHTML += str;
    
